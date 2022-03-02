@@ -29,10 +29,15 @@ nav {
     list-style-type: none;
     gap: 20px;
     font-size: 15px;
+  }
 
-    li {
-      text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 }
 
