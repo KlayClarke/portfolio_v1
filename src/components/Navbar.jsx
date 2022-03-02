@@ -18,6 +18,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link to={"/next"}>
+              <h2>next</h2>
+            </Link>
+          </li>
+          <li>
             <Link to={"/contact"}>
               <h2>contact</h2>
             </Link>

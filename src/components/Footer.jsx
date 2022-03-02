@@ -1,8 +1,14 @@
 export default function Footer() {
   return (
     <footer>
-      this will house small links to my github page, linkedin page and a pdf of
-      my resume
+      <ul>
+        <a href="https://github.com/KlayClarke" target="_blank">
+          <li>GitHub</li>
+        </a>
+        <a href="https://www.linkedin.com/in/klayclarke000" target="_blank">
+          <li>Linkedin</li>
+        </a>
+      </ul>
     </footer>
   );
 }
