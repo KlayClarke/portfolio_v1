@@ -8,15 +8,15 @@ import About from "./components/About";
 export default function RouteSwitch() {
   return (
     <BrowserRouter>
+      <Navbar />
       <main>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
